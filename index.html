@@ -1,32 +1,184 @@
-<!--
-    Author: Josue Morales
-    Modified by: Josue Morales
--->
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Basics of Web Development</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Josue Morales">
+
+    <title>Web Development Assignments - Josue Morales</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
+
 <body>
-    <h1>Basics of Web Development</h1>
-    <p>Josue Morales</p>
 
-    <h2>Assignments</h2>
+    <header class="site-header">
+        <div class="container">
 
-    <ul>
-        <li><a href="a1/">Assignment A1</a></li>
-        <li><a href="a2/">Assignment A2</a></li>
-        <li><a href="a3/">Assignment A3</a></li>
-        <li><a href="a4/">Assignment A4</a></li>
-        <li><a href="a5/">Assignment A5</a></li>
-        <li><a href="s1/">Assignment S1</a></li>
-        <li><a href="s2/">Assignment S2</a></li>
-        <li><a href="s3/">Assignment S3</a></li>
-        <li><a href="s4/">Assignment S4</a></li>
-        <li><a href="s6/">Assignment S6</a></li>
-        <li><a href="s7/">Assignment S7</a></li>
-    </ul>
+            <p class="eyebrow">Basics of Web Development</p>
+
+            <h1>My Web Development Assignments</h1>
+
+            <p>
+                My name is Josue Morales. I am studying Information
+                Technology Engineering at Centria University of
+                Applied Sciences. This website contains the assignments
+                I have completed during the course.
+            </p>
+
+            <nav aria-label="Exercise sections">
+                <a href="#s-assignments">S Assignments</a>
+                <a href="#a-assignments">A Assignments</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <main class="container">
+
+        <section id="s-assignments" aria-labelledby="s-header">
+
+            <h2 id="s-header">S Assignments</h2>
+            <p>Classroom assignments and the skills practised in them.</p>
+
+            <div class="card-grid">
+
+                <article class="card">
+                    <p class="task-id">S1</p>
+                    <h3>WWW Environment</h3>
+                    <p>
+                        I simulated a WWW environment using
+                        Cisco Packet Tracer.
+                    </p>
+                    <a class="card-link" href="s1/index.html">Open S1</a>
+                </article>
+
+                <article class="card">
+                    <p class="task-id">S2</p>
+                    <h3>Publishing a Web Page</h3>
+                    <p>
+                        I practised publishing an existing website
+                        using GitHub Pages.
+                    </p>
+                    <a class="card-link" href="s2/index.html">Open S2</a>
+                </article>
+
+                <article class="card">
+                    <p class="task-id">S3</p>
+                    <h3>Website Development</h3>
+                    <p>
+                        I separated HTML and CSS, created ordered
+                        and unordered lists, and used Live Server.
+                    </p>
+                    <a class="card-link" href="s3/index.html">Open S3</a>
+                </article>
+
+                <article class="card">
+                    <p class="task-id">S4</p>
+                    <h3>Subpage and Images</h3>
+                    <p>
+                        I created a gallery page, added images
+                        and implemented navigation between pages.
+                    </p>
+                    <a class="card-link" href="s4/index.html">Open S4</a>
+                </article>
+
+                <article class="card">
+                    <p class="task-id">S6</p>
+                    <h3>Different Ways of Using Images</h3>
+                    <p>
+                        I practised using background images,
+                        grayscale filters and clickable images.
+                    </p>
+                    <a class="card-link" href="s6/index.html">Open S6</a>
+                </article>
+
+                <article class="card">
+                    <p class="task-id">S7</p>
+                    <h3>Contact Form and POST Request</h3>
+                    <p>
+                        I created a contact form and examined
+                        the submitted POST request using Developer Tools.
+                    </p>
+                    <a class="card-link" href="s7/index.html">Open S7</a>
+                </article>
+
+            </div>
+
+        </section>
+
+        <section id="a-assignments" aria-labelledby="a-header">
+
+            <h2 id="a-header">A Assignments</h2>
+            <p>Graded assignments and the skills demonstrated in them.</p>
+
+            <div class="card-grid">
+
+                <article class="card">
+                    <p class="task-id">A1</p>
+                    <h3>Fixing the HTML Structure</h3>
+                    <p>
+                        I fixed HTML errors, separated the CSS
+                        and validated the website.
+                    </p>
+                    <a class="card-link" href="a1/index.html">Open A1</a>
+                </article>
+
+                <article class="card">
+                    <p class="task-id">A2</p>
+                    <h3>Personal Portfolio</h3>
+                    <p>
+                        I created a personal website presenting
+                        myself and my technology project.
+                    </p>
+                    <a class="card-link" href="a2/index.html">Open A2</a>
+                </article>
+
+                <article class="card">
+                    <p class="task-id">A3</p>
+                    <h3>Photo Gallery</h3>
+                    <p>
+                        I created a multi-page website with
+                        navigation and my own photographs.
+                    </p>
+                    <a class="card-link" href="a3/index.html">Open A3</a>
+                </article>
+
+                <article class="card">
+                    <p class="task-id">A4</p>
+                    <h3>Website Layout</h3>
+                    <p>
+                        I implemented a responsive layout
+                        and added links to the original images.
+                    </p>
+                    <a class="card-link" href="a4/index.html">Open A4</a>
+                </article>
+
+                <article class="card">
+                    <p class="task-id">A5</p>
+                    <h3>Registration Form</h3>
+                    <p>
+                        I created a registration form with
+                        input validation and POST submission.
+                    </p>
+                    <a class="card-link" href="a5/index.html">Open A5</a>
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>Original template: OpenAI / ChatGPT</p>
+            <p>Modified by: Josue Morales</p>
+        </div>
+    </footer>
+
 </body>
+
 </html>
